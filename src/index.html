@@ -5,9 +5,37 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Weather App</title>
     <link rel="stylesheet" href="style.css">
-    <script src="app.js"></script>
 </head>
 <body>
-    
+    <div class="container">
+        <div class="search-bar">
+            <input type="text" placeholder="Enter the city">
+            <img src="../assets/search.png" alt="Search">
+        </div>
+        <div class="weather-image">
+            <img src="../assets/clear.png" alt="Weather Image">
+        </div>
+        <div class="temperature">
+            <span id="temp">6 °C</span>
+            <span id="city">New York</span>
+        </div>
+        <div class="weather-details">
+            <div class="humidity">
+                <img src="../assets/humidity.png" alt="Humidity">
+                <div class="percent-humidity">
+                    <span id="humidity">48%</span>
+                    <p>Humidity</p>
+                </div>
+            </div>
+            <div class="wind-speed">
+                <img src="../assets/wind.png" alt="Wind Speed">
+                <div class="wind-speed-value">
+                    <span id="wind-speed">10.29 Km/h</span>
+                    <p>Wind Speed</p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="app.js"></script>
 </body>
 </html>
