@@ -1,4 +1,4 @@
-const API_KEY = "b965a4e8ab5b4be7419cffcef3996fd2";
+const API_KEY = "xxxxxxxxxxxxxxxxxxx";
 
 const searchBtn = document.querySelector(".search-bar img");
 
